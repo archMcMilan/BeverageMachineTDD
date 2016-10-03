@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e02b2ea5-8233-4c78-9344-f364b05a61cc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/BeverageMachine.class" afterPath="$PROJECT_DIR$/target/classes/BeverageMachine.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Initializer.class" afterPath="$PROJECT_DIR$/target/classes/Initializer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Product.class" afterPath="$PROJECT_DIR$/target/classes/Product.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/PosTest.class" afterPath="$PROJECT_DIR$/target/test-classes/PosTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/BeverageMachine.java" afterPath="$PROJECT_DIR$/src/main/java/BeverageMachine.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Initializer.java" afterPath="$PROJECT_DIR$/src/main/java/Initializer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Product.java" afterPath="$PROJECT_DIR$/src/main/java/Product.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/PosTest.java" afterPath="$PROJECT_DIR$/src/test/java/PosTest.java" />
     </list>
     <ignored path="MachineTDD.iws" />
@@ -42,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BeverageMachine.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BeverageMachine.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/BeverageMachine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="59" column="60" selection-start-line="59" selection-start-column="60" selection-end-line="59" selection-end-column="60" />
+            <state relative-caret-position="276">
+              <caret line="99" column="52" selection-start-line="99" selection-start-column="52" selection-end-line="99" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -64,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PosTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PosTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/PosTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="609">
-              <caret line="82" column="39" selection-start-line="82" selection-start-column="39" selection-end-line="82" selection-end-column="39" />
+            <state relative-caret-position="314">
+              <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
               <folding>
                 <element signature="e#109#110#0" expanded="true" />
                 <element signature="e#154#155#0" expanded="true" />
@@ -80,9 +73,11 @@
       <file leaf-file-name="Product.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Product.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="98" selection-start-line="4" selection-start-column="98" selection-end-line="4" selection-end-column="98" />
-              <folding />
+            <state relative-caret-position="289">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding>
+                <element signature="e#460#461#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,8 +105,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Product.java" />
         <option value="$PROJECT_DIR$/src/main/java/Initializer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/BeverageMachine.java" />
         <option value="$PROJECT_DIR$/src/test/java/PosTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BeverageMachine.java" />
       </list>
     </option>
   </component>
@@ -550,34 +545,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PosTest - 2016.09.30 at 16h 27m 22s.xml">
-      <configuration name="PosTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PosTest - 2016.09.30 at 16h 48m 09s.xml">
-      <configuration name="PosTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PosTest - 2016.10.03 at 18h 51m 28s.xml">
-      <configuration name="PosTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PosTest - 2016.10.03 at 18h 52m 58s.xml">
-      <configuration name="PosTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PosTest - 2016.10.03 at 18h 56m 30s.xml">
-      <configuration name="PosTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PosTest - 2016.10.03 at 19h 05m 45s.xml">
-      <configuration name="PosTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PosTest - 2016.10.03 at 19h 06m 41s.xml">
-      <configuration name="PosTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PosTest - 2016.10.03 at 19h 06m 42s.xml">
-      <configuration name="PosTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PosTest - 2016.10.03 at 19h 07m 09s.xml">
-      <configuration name="PosTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PosTest - 2016.10.03 at 19h 13m 55s.xml">
+      <configuration name="PosTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PosTest - 2016.10.03 at 19h 16m 42s.xml">
+      <configuration name="PosTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PosTest - 2016.10.03 at 19h 16m 47s.xml">
+      <configuration name="PosTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PosTest - 2016.10.03 at 19h 19m 29s.xml">
+      <configuration name="PosTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PosTest - 2016.10.03 at 19h 19m 31s.xml">
+      <configuration name="PosTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PosTest - 2016.10.03 at 19h 21m 28s.xml">
+      <configuration name="PosTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PosTest - 2016.10.03 at 19h 21m 50s.xml">
+      <configuration name="PosTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PosTest - 2016.10.03 at 19h 23m 25s.xml">
+      <configuration name="PosTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PosTest - 2016.10.03 at 19h 27m 48s.xml">
+      <configuration name="PosTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PosTest - 2016.10.03 at 19h 28m 31s.xml">
       <configuration name="PosTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -592,7 +587,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871974" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32871974" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -624,7 +619,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -674,7 +669,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="98" selection-start-line="4" selection-start-column="98" selection-end-line="4" selection-end-column="98" />
-          <folding />
+          <folding>
+            <element signature="e#460#461#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -709,14 +706,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="98" selection-start-line="4" selection-start-column="98" selection-end-line="4" selection-end-column="98" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Initializer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -727,22 +716,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BeverageMachine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="59" column="60" selection-start-line="59" selection-start-column="60" selection-end-line="59" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PosTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="82" column="39" selection-start-line="82" selection-start-column="39" selection-end-line="82" selection-end-column="39" />
+        <state relative-caret-position="314">
+          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
           <folding>
             <element signature="e#109#110#0" expanded="true" />
             <element signature="e#154#155#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="203" column="0" selection-start-line="203" selection-start-column="0" selection-end-line="203" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runner/notification/Failure.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/EachTestNotifier.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="e#460#461#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BeverageMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="99" column="52" selection-start-line="99" selection-start-column="52" selection-end-line="99" selection-end-column="52" />
+          <folding />
         </state>
       </provider>
     </entry>

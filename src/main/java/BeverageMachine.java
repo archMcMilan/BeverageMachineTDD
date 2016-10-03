@@ -70,8 +70,12 @@ public class BeverageMachine {
     public boolean isChangeAvailable(int value,NavigableMap<Integer,Integer> outputCoins){
         for(Integer coinValue:availableCoins.descendingKeySet()){
             int coinsAmount=value/coinValue;
-            int availableCoinsAmount=availableCoins.get(coinValue);
-            value = balanceValue(value, outputCoins, coinValue, coinsAmount, availableCoinsAmount);
+            if(coinsAmount>0){
+                int availableCoinsAmount=availableCoins.get(coinValue);
+                value = balanceValue(value, outputCoins, coinValue, coinsAmount, availableCoinsAmount);
+            }
+            if(value==0)
+                return true;
         }
         if(value==0)
             return true;
@@ -92,10 +96,10 @@ public class BeverageMachine {
     }
     public NavigableMap<Integer,Integer> getChange(){
         NavigableMap<Integer,Integer> outputCoins=new TreeMap<>();
-        if(isChangeAvailable(currentInputValue,outputCoins)){
-            for(Integer coinValue:availableCoins.descendingKeySet()){
-                availableCoins.merge(coinValue,outputCoins.get(coinValue)*(-1),Integer::sum);
-            }
+        if(isChangeAvailable(currentInputValue-currentProduct.getPrice(),outputCoins)){
+            availableCoins.descendingKeySet().stream().filter(outputCoins::containsKey).forEach(coinValue -> {
+                availableCoins.merge(coinValue, outputCoins.get(coinValue) * (-1), Integer::sum);
+            });
             return outputCoins;
         }
         return null;

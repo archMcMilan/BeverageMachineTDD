@@ -77,7 +77,7 @@ public class PosTest {
             machine.addCoin(value);
         }
     }
-    @Ignore
+
     @Test
     public void giveChange(){
         machine.add(Product.GREEN_TEA);
