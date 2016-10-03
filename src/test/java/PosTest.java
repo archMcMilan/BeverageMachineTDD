@@ -6,28 +6,18 @@ public class PosTest {
     @Before
     public void setUp(){
         machine=new BeverageMachine();
-        Product greenTea=new Product("green tea",25);
-        Product blackTea=new Product("black coffee",25);
-        Product coffee=new Product("coffee",35);
     }
 
     @Test
     public void addProduct(){
-        Product greenTea=new Product("green tea",25);
-        Assert.assertEquals(true, machine.add(greenTea));
+        Assert.assertEquals(true, machine.add(Product.GREEN_TEA));
     }
 
-    @Test
-    public void addProducts(){
-        Product greenTea=new Product("green tea",25);
-        Assert.assertEquals(true, machine.add(greenTea,5));
-    }
 
     @Test
     public void giveTea(){
-        Product greenTea=new Product("green tea",25);
-        machine.add(greenTea);
-        Assert.assertEquals(true, machine.giveProduct(greenTea));
+        machine.add(Product.GREEN_TEA);
+        Assert.assertEquals(true, machine.giveProduct());
     }
 
     @Test
@@ -55,9 +45,30 @@ public class PosTest {
 
     @Test
     public void buyProduct(){
+        machine.add(Product.GREEN_TEA);
         initCoins(5,5);
-        Product greenTea=new Product("green tea",25);
-        Assert.assertEquals(25, machine.buyProduct());
+        Assert.assertEquals(true, machine.buyProduct());
+    }
+
+    @Test
+    public void MachineDoesntContainSuchProduct(){
+        machine.add(Product.ESPRESSO);
+        initCoins(5,5);
+        Assert.assertEquals(false, machine.buyProduct());
+    }
+
+    @Test
+    public void isntEnoughCoinsToBuyProduct(){
+        machine.add(Product.GREEN_TEA);
+        initCoins(5,4);
+        Assert.assertEquals(false, machine.buyProduct());
+    }
+
+    @Test
+    public void suchProductIsEmptyToBuy(){
+        machine.add(Product.COFFEE);
+        initCoins(5,5);
+        Assert.assertEquals(false, machine.buyProduct());
     }
 
 
@@ -65,5 +76,13 @@ public class PosTest {
         for(int i=0;i<amount;i++){
             machine.addCoin(value);
         }
+    }
+    @Ignore
+    @Test
+    public void giveChange(){
+        machine.add(Product.GREEN_TEA);
+        initCoins(10,3);
+        machine.buyProduct();
+        Assert.assertEquals(1, machine.getChange().keySet().size());
     }
 }
