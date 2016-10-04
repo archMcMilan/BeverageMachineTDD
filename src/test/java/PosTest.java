@@ -85,4 +85,12 @@ public class PosTest {
         machine.buyProduct();
         Assert.assertEquals(1, machine.getChange().keySet().size());
     }
+
+    @Test
+    public void giveChangeZero(){
+        machine.add(Product.GREEN_TEA);
+        initCoins(5,5);
+        machine.buyProduct();
+        Assert.assertEquals(0, machine.getChange().keySet().size());
+    }
 }
